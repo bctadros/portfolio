@@ -41,4 +41,5 @@ section {
     text-align: center;
     background-image: url(http://splitshire.com/wp-content/uploads/2015/01/SplitShire-1292-800x500.jpg);
     height: 400px;
+    background-size: cover;
 }
