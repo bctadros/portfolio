@@ -29,6 +29,10 @@ body {
       border-radius: 50%;
   }
   
-  h2{
+  header he {
+      font-family: 'Calligraffitti', cursive;
+  }
+  
+  h2 {
     color:white;
 }
