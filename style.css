@@ -44,7 +44,7 @@ section {
     background-size: cover;
 }
 
-button {
+section button {
     color: white;
     background-color: red;
     border-radius: 5px;
