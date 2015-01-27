@@ -47,8 +47,8 @@ section {
 section button {
     color: white;
     background-color: red;
-    border-radius: 50px;
-    margin: 50px;
-    padding: 50px;
-    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 40px;
 }
