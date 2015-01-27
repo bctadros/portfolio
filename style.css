@@ -21,6 +21,10 @@ body {
       background-color:#1B1CCD;
   }
   
+  header img {
+      border-radius: 50%;
+  }
+  
   h2{
     color:white;
 }
