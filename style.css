@@ -21,6 +21,10 @@ body {
       background-color:#1B1CCD;
   }
   
+  header {
+      text-align: center;
+  }
+  
   header img {
       border-radius: 50%;
   }
