@@ -43,3 +43,10 @@ section {
     height: 600px;
     background-size: cover;
 }
+
+button {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    
+}
