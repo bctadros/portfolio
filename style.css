@@ -6,6 +6,12 @@ body {
     font-family:sans-serif;
   }
   
+  nav a {
+      text-decoration: none;
+      color: #1EDEFF;
+      background-color: white;
+  }
+  
   h2{
     color:white;
 }
