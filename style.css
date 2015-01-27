@@ -11,6 +11,8 @@ body {
       color: #1EDEFF;
       background-color: white;
       border-radius: 2px;
+      margin: 5px;
+      padding: 5px;
   }
   
   h2{
