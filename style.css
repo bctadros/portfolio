@@ -48,5 +48,6 @@ section button {
     color: white;
     background-color: red;
     border-radius: 5px;
-    
+    margin: 10px;
+    padding: 10px;
 }
