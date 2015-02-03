@@ -65,6 +65,10 @@ p {
     display: Inline-block;
     opacity: 0.5;
   }
+  
+  p:hover {
+      margin-top: -10px;
+  }
 
 section button {
     color: white;
