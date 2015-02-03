@@ -59,7 +59,7 @@ section {
 p {
     background-color: #00FFF5;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    margin: 0;
+    margin: 15px;
     padding: 20px;
     width: 200px;
     display: Inline-block;
