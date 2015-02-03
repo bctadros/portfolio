@@ -56,6 +56,11 @@ section {
     height: 250px;
     
 }
+p {
+    background-color: #00FFF5;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin: 0;
+  }
 
 section button {
     color: white;
