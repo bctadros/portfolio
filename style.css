@@ -78,3 +78,7 @@ section button {
     padding: 5px;
     margin-top: 40px;
 }
+
+.menu-selected {
+    background-color:#00bcd4;
+}
