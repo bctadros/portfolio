@@ -1,89 +1,133 @@
-
-
-body {
-    background-color: #1EDEFF;
-    color: black;
-    font-family: "Arial Narrow Bold", sans-serif;
-    margin: 0;
-  }
-  
-  nav a {
-      text-decoration: none;
-      color: #1EDEFF;
-      background-color: white;
-      border-radius: 2px;
-      margin: 5px;
-      padding: 5px;
-      display: inline-block;
-      transition: 1s all;
-  }
-  
-  nav a:hover {
-      background-color: black;
-  }
-  
-  header {
-      text-align: center;
-  }
-  
-  header img {
-      border-radius: 50%;
-  }
-  
-  header h1 {
-      font-family: 'Calligraffitti', cursive;
-  }
-  
-  header h2 {
-      font-family: 'Josefin Sans', sans-serif;
-  }
-  
-  h2 {
-    color:white;
-}
-
-section {
-    text-align: center;
-    background-image: url(http://splitshire.com/wp-content/uploads/2015/01/SplitShire-1292-800x500.jpg);
-    height: 600px;
-    background-size: cover;
-    margin: 0;
-}
-
-#features {
-    background-image: none;
-    background-color: #87CEFA;
-    height: 250px;
     
+    body{
+      color: #212121;
+      font-family: sans-serif;
+      margin: 0;
+    }
+    
+    a{
+            text-decoration: none;  
+    }
+    
+    nav a {
+        color: #F5F5F5;
+        background-color: #9E9E9E;
+        border-radius: 2px;
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+        transition: 1s all;
+        
+    }
+    
+      nav a:hover{
+        background-color: #727272;  
+      }
+    
+    header {
+        text-align: center;
+    }
+      
+    header img{
+        border-radius: 50%;
+    }  
+    
+    header h1{
+        font-family: 'Lobster', cursive;
+    }
+    
+    h2{
+      color: #00bcd4;
+    }
+    
+    section{
+        text-align: center;
+        background-image: url(https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/103.jpg);
+        background-position: 0px 603px;
+        height: 300px;
+        background-size: cover;
+    }
+
+#features{
+  background-image: none;
+  background-color: #0097a7;
+  height: 250px;
+  padding: 50px;
+  box-sizing: border-box;
 }
+
 p {
-    background-color: #00FFF5;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    margin: 15px;
-    padding: 20px;
-    width: 200px;
-    display: Inline-block;
-    transition: 1s all;
-  }
-  
-  p:hover {
-      transform: rotate(-7deg);
-  }
-
-section button {
-    color: white;
-    background-color: red;
-    border: none;
-    border-radius: 3px;
-    padding: 5px;
-    margin-top: 40px;
+  color: #FFF;
+  background-color:#b2ebf2;
+  font-family: Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif; 
+  margin: 15px;
+  padding: 20px;
+  width: 200px;
+  display: inline-block;
+  transition: 1s all;
 }
 
-.menu-selected {
-    background-color:#00bcd4;
+p:hover{
+    transform: rotate(-7deg);
+}
+    
+    button{
+        color: #FFF;
+        background-color:rgba(0, 188, 212, 0.75);
+        border: none;
+        border-radius: 3px;
+        padding: 20px;
+        margin-top: 120px;
+    }
+    
+    footer{
+        background-color: #000;
+        height: 150px;
+        text-align: center;
+        background-color: #727272;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+
+
+.menu-selected{
+  background-color: #00bcd4;
 }
 
-table {
+table{
     width: 1214px;
     margin: 0 auto;
 }
+
+
+.button {
+   border-top: 1px solid #f7d31e;
+   background: #eb612f;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f7d425), to(#eb612f));
+   background: -webkit-linear-gradient(top, #f7d425, #eb612f);
+   background: -moz-linear-gradient(top, #f7d425, #eb612f);
+   background: -ms-linear-gradient(top, #f7d425, #eb612f);
+   background: -o-linear-gradient(top, #f7d425, #eb612f);
+   padding: 14px 28px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #bd4c26;
+   background: #bd4c26;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #eb612f;
+   background: #eb612f;
+   }
