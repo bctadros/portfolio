@@ -1,58 +1,67 @@
 <!doctype html>
 <html>
 <head>
-<link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-<link href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
+<script>
+if(window.top==window){
+ //not inside iframe
+} else {
+    if(parent.parent.someFunction){
+       parent.parent.someFunction();
+    } else {
+       alert("framing is not allowed")
+    }
+}
+</script>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet"> 
-<style>
-  p {
-    background-color: #00FFF5;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  }
-</style>
 </head>
 <body>
 
 <nav>
-<a href="index.html" class="menu-selected">Home</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> <a href="portfolio.html">Portfolio</a>
+<a href="index.html" class="menu-selected"> Home </a>  <a href="about.html"> About </a> <a href="portfolio.html">Portfolio</a>
 </nav>
 <header>
-<img src="https://farm9.staticflickr.com/8576/16194979590_0ec3c8767c_q.jpg">
-<h1>Barbara Tadros</h1>
+<img src="https://farm9.staticflickr.com/8650/15762352813_d5ec75a05f_n.jpg" width="100">
+<h1>Rima Gerhard</h1>
 <h2>Portfolio</h2>
 </header>
 <section>
-  <button>See my work.</button>
+  <a class="button" href="portfolio.html">See my work.</a>
 </section>
 <section id="features">
-  <p> <i class="fa fa-file-image-o"></i>
-  <br>
-  Advertising
-  </p>
-  <p> <i class="fa fa-desktop"></i>
-  <br>
-  Graphic Design
-  </p>
-  <p> <i class="fa fa-pencil-square-o"></i>
-  <br>
-  Illustration
-  </p>
+<p>
+<i class="fa fa-cogs"></i>
+<br>
+Web Design.
+</p>
+<p><i class="fa fa-laptop"></i>
+<br>
+Web Development.</p>
+<p>
+<i class="fa fa-mobile"></i>
+<br>
+Mobile Apps.</p>
 </section>
-</body>
-</html>
 
+<section>
 
-<div>I am a Advertising Student in Miami.</div>
-<div>I enjoy taking pictures and traveling.</div>
-<a href="http://www.twitter.com/bctadros">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/HaMq2nn5ac0?controls=0" frameborder="0" allowfullscreen></iframe>
+
+</section>
+
+<footer>
+
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fmiuweb&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=465970720158684" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>
+
+<a href="http://www.twitter.com/rima_gerhard">
 <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-32.png">
 </a>
-<a href="http://www.instagram.com/barbaratadros">
+<a href="http://www.linkedin.com/in/rimagerhard">
+<img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-32.png">
+</a>
 <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/78-instagram-32.png">
-</a>
-<a href="https://www.linkedin.com/profile/view?id=284419341&trk=nav_responsive_tab_profile">
-<img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-32.png">
-</a>
+</footer>
+  
 </body>
 </html>
