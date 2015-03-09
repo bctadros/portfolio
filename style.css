@@ -1,6 +1,6 @@
     
     body{
-      color: #212121;
+      color: #F8CBF9;
       font-family: sans-serif;
       margin: 0;
     }
@@ -10,7 +10,7 @@
     }
     
     nav a {
-        color: #F5F5F5;
+        color: #F8CBF9;
         background-color: #F8CBF9;
         border-radius: 2px;
         margin: 5px;
@@ -21,7 +21,7 @@
     }
     
       nav a:hover{
-        background-color: #727272;  
+        background-color: #F8CBF9;  
       }
     
     header {
@@ -37,7 +37,7 @@
     }
     
     h2{
-      color: #00bcd4;
+      color: #F8CBF9;
     }
     
     section{
